@@ -5,5 +5,6 @@ public class HelloWorld{
         System.out.println(words);
         String salami = "This is so crazy";
         words = words + " " + salami;
+        System.out.println(words);
     }
 }
