@@ -1,0 +1,58 @@
+li.a {
+    list-style-type: circle;
+}
+li.b {
+    list-style-type: square;
+}
+h2{
+    color: red;
+}
+h1{
+    color: blue;
+    text-align: center;
+}
+#movies{
+    color: green;
+    font-family: sans-serif;
+}
+#hobbies{
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#websites{
+    color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a:hover{
+    color: red;
+}
+img{
+    width: 25%;
+    border-style: solid;
+}
+td{
+    background-color: yellow;
+}
+th{
+    background-color: yellow;
+}
+td.Eng{
+    color: green;
+    text-align: center;
+}
+td.CS{
+    color: grey;
+    text-align: center;
+}
+td.Lunch{
+    color: aquamarine;
+    text-align: center;
+}
+td.Math{
+    color: blueviolet;
+    text-align: center;
+}
+td.VideoGames{
+    color: red;
+    text-align: center;
+}

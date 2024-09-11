@@ -1,0 +1,5 @@
+https://mscs-php.uwstout.edu/2023SP/cs/248/002/curle4271/
+
+https://mscs-php.uwstout.edu/2023SP/cs/248/002/curle4271/movie.php?film=spree
+
+https://mscs-php.uwstout.edu/2023SP/cs/248/002/curle4271/Shop.html

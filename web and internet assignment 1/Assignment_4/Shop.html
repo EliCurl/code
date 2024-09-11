@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Cars For Sale</title>
+    <link type="text/css" rel="stylesheet" href="orderSummary.css">
+</head>
+
+<body background="background.jpg">
+    <h1>Cars For Sale</h1>
+    <h2>Not for real - This is a school project</h2>
+    <p>The following items are used for drving, don't crash</p>
+    <form action="orderSummary.php" method="post">
+    <table>
+        <tr>
+        <td><img src="OIP.jpg" alt="car 1"></td>
+        <td>
+            Car 1, speedy<br>
+            Price - $55,654<br>
+            <label for="car1"> Order Now! </label>
+            <input type="checkbox" name="items[car1]" value="55654" id="avid">
+        </td>
+        <td><img src="red-ferrari-super-car.jpg" alt="car #2"/></td>
+        <td>
+            Car 2, also very speedy<br>
+            Price - $127,659<br>
+            <label for="car2"> Order Now! </label>
+            <input type="checkbox" name="items[car2]" value="127659" id="luna">
+        </td>
+        <td><img src="nice-beautiful-style-car.jpg" alt="car 3"></td>
+        <td>
+            Car 3, very flashy<br>
+            Price - $34,873,921<br>
+            <label for="car3"> Order Now! </label>
+            <input type="checkbox" name="items[car3]" value="34873921" id="sr2">
+        </td>
+        <td><img src="wowFastCar.jpg" alt="car #4"></td>
+        <td>
+            Car 4, speediest of cars<br>
+            Price - $562,948<br>
+            <label for="car4"> Order Now! </label>
+            <input type="checkbox" name="items[car4]" value="562948" id="vega">
+        </td>
+        </tr>
+    </table>
+    <fieldset>
+        <legend>Order Form</legend>
+
+        <label class="" for="firstname">First Name</label>
+        <input type="text" name="firstname" id="firstname"/> <br>
+
+        <label class="" for="lastname">Last Name</label>
+        <input type="text" name="lastname" id="lastname"/> <br>
+
+        <label class="" for="street">Street</label>
+        <input type="text" name="street" id="street" size="40"/> <br>
+
+        <label class="" for="city">City</label>
+        <input type="text" name="city" id="city"/> <br>
+
+        <label class="" for="state">State</label>
+        <input type="text" name="state" id="state" size="2"/> <br>
+
+        <label class="" for="zip">Zip</label>
+        <input type="text" name="zip" id="zip" size="5"/> <br>
+
+        <label class="">Credit Card</label>
+        <label><input type="radio" name="credit" id="mc">Mastercard</label>
+        <label><input type="radio" name="credit" id="visa">Visa</label>
+        <label><input type="radio" name="credit" id="ae">American Express</label>
+    </fieldset>
+    <input type="submit" />
+    </form>
+</body>
+</html>

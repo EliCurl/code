@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fun buttons to press</title>
+    <script> 
+        function showMessage1() {
+            var message1 = 'Here is some text';
+            document.getElementById("message1").innerHTML = message1;
+        } 
+
+        function showMessage2() {
+            var message2 = 'Now it is changed, that is cool I guess';
+            document.getElementById("message1").innerHTML = message2;
+        } 
+
+        function showTime() {
+            var thetime = "Date : " + Date()
+            document.getElementById("Time").innerHTML = thetime;
+        }
+
+        function image(){
+            var x = document.createElement("IMG");
+            x.id="CoolGuy";
+            x.setAttribute("src", "VeryCoolImage.jpg");
+            x.setAttribute("width", "304");
+            x.setAttribute("height", "228");
+            x.setAttribute("alt", "Jack Black");
+            console.log(x)
+            document.body.appendChild(x);
+            
+
+        }
+
+        function image2(){
+            const x = document.getElementById("CoolGuy");
+            console.log(x)
+            x.setAttribute("src", "VeryCoolImage2.jpg");
+        }
+        
+    </script>
+</head>
+<body>
+    <h2>Add and change text here:</h2>
+    <p>
+        <button onclick="showMessage1()"> Add Text </button>
+        <button onclick="showMessage2()"> Now change it </button> 
+        <div id="message1"></div>
+    
+    <h2>See the Time</h2>
+    <p>
+        <button onclick="showTime()"> Add the time</button>
+        <div id="Time"></div>
+
+    <h2>Lets check out these cool images</h2>
+    <p>
+        <button onclick="image()"> Very cool image</button>
+        <button onclick="image2()"> Very cool image, but this one is cooler</button>
+        <div id="Cool"></div>
+    
+</body>
+</html>
